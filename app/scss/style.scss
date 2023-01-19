@@ -1,0 +1,36 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+.container {
+  padding: 0 calc(50% - 590px);
+  margin: 0 auto;
+}
+
+
+.header{
+  &__inner{
+    display: flex;
+    height: 120px;
+    margin: auto 0;
+  }
+}
+.logo{
+  display: flex;
+  margin: auto 0;
+  &-title{
+    text-transform: uppercase;
+    margin: auto 0;
+    padding-left: 17px;
+  }
+}
+.main-nav{
+  padding-left: 70px;
+  margin: auto 0;
+  &__list{
+    display: flex;
+flex-direction: row;
+  }
+}
